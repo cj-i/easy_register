@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+.userinfotest {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,3 +19,45 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.container{
+  text-align: center;
+   position: relative;
+  width: 100%;
+  height: 100%;
+}
+/**
+  （1）居中的设置：
+  1. 先找到一个相对的布局view
+  2. 将当前的布局层设置为absolute
+  3. 设置左右为0,margin:auto
+
+  换行：
+  设置属性display: block
+*/
+/*功能按钮样式*/
+.func{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 100rpx;
+  width: 200px;
+  height: 200px;
+}
+.func-regitter{
+  display: block;
+  font-size: 100rpx;
+  text-align: center;
+  margin-left:auto; margin-right:auto;
+}
+.func-my{
+  display: block;
+  font-size: 100rpx;
+  margin-top: 50rpx;
+  text-align: center;
+  margin-left:auto; margin-right:auto;
+}
+
