@@ -1,6 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+
+    "pages/module_my/module_my",
+    "pages/module_my/userinfo/userinfo",
+
     "pages/logs/logs"
   ],
   "window":{

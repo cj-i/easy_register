@@ -22,6 +22,7 @@
 
 .container{
   text-align: center;
+   position: relative;
   width: 100%;
   height: 100%;
 }
@@ -46,13 +47,13 @@
   width: 200px;
   height: 200px;
 }
-.func_regitter{
+.func-regitter{
   display: block;
   font-size: 100rpx;
   text-align: center;
   margin-left:auto; margin-right:auto;
 }
-.func_my{
+.func-my{
   display: block;
   font-size: 100rpx;
   margin-top: 50rpx;

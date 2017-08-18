@@ -12,6 +12,18 @@ Page({
       url: '../logs/logs'
     })
   },
+  //登记
+  func_regitter: function () {
+    wx.navigateTo({
+      url: '../logs/logs'
+    })
+  },
+  func_my: function () {
+    wx.navigateTo({
+      url: '../module_my/module_my'
+    })
+  },
+  
   onLoad: function () {
     console.log('onLoad')
     var that = this

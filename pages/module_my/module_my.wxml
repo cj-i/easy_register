@@ -1,0 +1,7 @@
+
+<view class="container">
+  <view class="func">
+      <text class="userinfo" bindtap="func_userinfo">个人信息</text>
+      <text class="register_history" bindtap="func_rh">登记记录</text>
+  </view>
+</view>
